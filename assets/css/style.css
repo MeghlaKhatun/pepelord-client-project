@@ -1,42 +1,80 @@
-/*
-  Theme Name : Creative Studio
-  Author     : coderpbt@gmail.com
-  Support    : coderpbt@gmail.com
-  Description: Creative Studio Html5 Landingpage
-  Version    : 1.0
-*/
-
-/* Css Index
- ===============================
- 1 Header Css
- 2 Banner Css
- 3 Contact Css
-*/
-
-
-
-/*
- Landingpage Default css
-*/
-body{
-  margin: 0;
-  padding: 0;
-  font-size: 18px;
-  box-sizing: border-box;
+body {
+   margin: 0;
+   padding: 0;
+   font-size: 18px;
+   box-sizing: border-box;
 }
 
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, span, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
    margin: 0;
    padding: 0;
    border: 0;
@@ -44,15 +82,27 @@ time, mark, audio, span, video {
    font-size: 100%;
    background: transparent;
 }
-p a{
-  background: transparent !important;
+
+p a {
+   background: transparent !important;
 }
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
    display: block;
 }
-textarea{
-	outline:none !important;
+
+textarea {
+   outline: none !important;
 }
 
 audio,
@@ -60,17 +110,24 @@ canvas,
 video {
    display: inline-block;
 }
-a{
-  outline: none !important;
+
+a {
+   outline: none !important;
 }
+
 audio:not([controls]) {
    display: none;
    height: 0;
 }
 
-[hidden] { display: none; }
+[hidden] {
+   display: none;
+}
 
-code, kbd, pre, samp {
+code,
+kbd,
+pre,
+samp {
    font-family: monospace, serif;
    font-size: 1em;
 }
@@ -81,8 +138,10 @@ pre {
    word-wrap: break-word;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
    content: '';
    content: none;
 }
@@ -98,9 +157,12 @@ mark {
    color: #555;
 }
 
-del { text-decoration: line-through; }
+del {
+   text-decoration: line-through;
+}
 
-abbr[title], dfn[title] {
+abbr[title],
+dfn[title] {
    border-bottom: 1px dotted;
    cursor: help;
 }
@@ -109,44 +171,192 @@ table {
    border-collapse: collapse;
    border-spacing: 0;
 }
-button{
-  outline: none !important;
-}
-input
-{
-    outline:none !important;
+
+button {
+   outline: none !important;
 }
 
-textarea{
-  outline: none !important;
+input {
+   outline: none !important;
 }
+
+textarea {
+   outline: none !important;
+}
+
 /******************************** End default css*******************************************/
 
-h1,h2,h3,h4,h5,h6,p{
-  margin:0;
-  padding:0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+   margin: 0;
+   padding: 0;
 }
-ul{
-  margin:0;
-  padding: 0;
-  list-style: none;
+
+ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
 }
-a{
-  margin:0;
-  padding:0;
-  text-decoration: none;
+
+a {
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
 }
-a:hover{
-  text-decoration: none;
+
+a:hover {
+   text-decoration: none;
+}
+
+body {
+   background: #36843d;
+
 }
 
 /**************************************/
 /************ Header  Area*************/
 /************************************/
+.menu {
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 78px;
+}
 
+.menu ul {
+   display: flex;
+   gap: 21px;
+}
+
+.menu ul li a {
+   background-color: #114516;
+   height: 64px;
+   width: 64px;
+   border-radius: 50%;
+   color: #fff;
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+
+.menu ul li a i {
+   font-size: 30px;
+}
+
+.buy-btn {
+   padding: 15px 56px;
+   color: #236129;
+   background-color: #fff;
+   border: 8px solid #045C62;
+   font-family: "Irish Grover", system-ui;
+   font-weight: 400;
+   font-size: 40px;
+   box-shadow: 0px 5px 2px 0px #00000040;
+}
 
 
 /**************************************/
-/************ Header  Area*************/
+/************ Banner Area*************/
 /************************************/
 
+.pepelord {
+   text-align: center;
+   margin-top: 117px;
+}
+
+.pepelord-img {
+   width: 668px;
+   height: 668px;
+   margin: auto;
+   border-radius: 50%;
+   background: linear-gradient(180deg, #74C37B 0%, #21A92E 100%);
+}
+
+.pepelord-img img {
+   width: 653px;
+   height: 636px;
+   margin-top: 69px;
+}
+
+.pepelord-text h1 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 190px;
+   font-weight: 400;
+   line-height: 229.71px;
+   color: #fff;
+   -webkit-text-stroke: 12px rgba(36, 99, 42, 1);
+   padding-top: 19px;
+}
+
+.pepelord-text h2 {
+   font-family: "Gochi Hand", cursive;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 70.72px;
+   color: #FFFFFF;
+}
+
+.pepelord-text img {
+   width: 83px;
+   height: 83px;
+   margin-top: 58px;
+   margin-left: 33px;
+   margin-bottom: 119px;
+}
+
+.pepelord-text h3 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 52px;
+   font-weight: 400;
+   line-height: 61.29px;
+   text-align: center;
+   color: #fff;
+   margin: auto;
+   width: 75%;
+}
+
+.pepelord-text p {
+   font-family: "Gochi Hand", cursive;
+   font-size: 52px;
+   font-weight: 400;
+   line-height: 61.29px;
+   text-align: center;
+   color: #fff;
+   margin: auto;
+   width: 75%;
+   margin-top: 50px;
+}
+
+.pepelord-btn {
+   margin: 125px auto 101px auto;
+   text-align: center;
+}
+.pepelord-btn img{
+   width: 720px;
+   object-fit: cover;
+}
+
+/* .pepelord-btn  {
+   font-family: "Irish Grover", system-ui;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 72.54px;
+   color: #236129;
+   padding: 25px 68px;
+} */
+
+/* .pepelord-btn  {
+   width: 48px;
+   height: 48px;
+} */
+
+/**************************************/
+/************ Tokenomics area*************/
+/************************************/
+.tokenomics-header h1 {}
