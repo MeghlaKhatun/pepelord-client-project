@@ -231,6 +231,7 @@ body {
 
 .menu ul {
    display: flex;
+   align-items: center;
    gap: 21px;
 }
 
@@ -249,15 +250,13 @@ body {
    font-size: 30px;
 }
 
-.buy-btn {
-   padding: 15px 56px;
-   color: #236129;
-   background-color: #fff;
-   border: 8px solid #045C62;
-   font-family: "Irish Grover", system-ui;
-   font-weight: 400;
-   font-size: 40px;
-   box-shadow: 0px 5px 2px 0px #00000040;
+.nav-btn {
+   text-align: center;
+}
+
+.nav-btn img {
+   width: 191px;
+   object-fit: cover;
 }
 
 
@@ -371,12 +370,15 @@ body {
 .tokenomics-main {
    display: flex;
 }
-.tokenomics-cards{
+
+.tokenomics-cards {
    max-width: 1170px;
    margin-left: -90px;
 }
+
 .tokenomic-card {
    display: flex;
+   flex-wrap: wrap;
    gap: 59px;
 }
 
@@ -407,11 +409,13 @@ body {
 .second-card {
    padding: 47px 414px 46px 52px;
 }
-.third-card{
+
+.third-card {
    padding: 54px 75px;
    background-color: #236129;
    margin-top: 52px;
 }
+
 .third-card h1 {
    font-family: "Gochi Hand", cursive;
    font-size: 64px;
@@ -426,7 +430,155 @@ body {
    text-align: center;
 }
 
-.tokenomic-btn img{
+.tokenomic-btn img {
    width: 274px;
    object-fit: cover;
+}
+
+
+/**************************************/
+/************ noble family Area*************/
+/************************************/
+.noble-family-header h1 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 150px;
+   font-weight: 400;
+   line-height: 181.35px;
+   color: #fff;
+   -webkit-text-stroke: 8px #0B8189;
+   text-align: center;
+}
+
+.noble-family-header h2 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 70.72px;
+   text-align: center;
+   color: #fff;
+   margin: 11px 0 77px 0;
+}
+
+.noble-family-card {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 73px;
+   max-width: 1610px;
+   margin: 0 auto;
+}
+
+.noble-family-img {
+   background-color: #236129;
+   width: 488px;
+   height: 493px;
+}
+
+.noble-family-img img {
+   padding: 38px 24px 0 9px;
+}
+
+.noble-family h2 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 42px;
+   font-weight: 400;
+   line-height: 50px;
+   text-align: center;
+   color: #fff;
+   margin: 32px 0 24px 0;
+}
+
+.noble-four-card img {
+   background: none;
+}
+
+.noble-family-four-img img {
+   width: 473px;
+   height: 473px;
+}
+
+.noble-family-five-img {
+   background-color: #236129;
+   width: 488px;
+   margin: 0 auto;
+}
+
+.join-the-commumity h1 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 70.72px;
+   text-align: center;
+   color: #fff;
+   margin: 64px 0 33px 0;
+}
+.join-the-commumity ul{
+   display: flex;
+   justify-content: center;
+   gap: 21px;
+}
+.join-the-commumity ul li a{
+   background-color: #114516;
+   height: 154px;
+   width: 154px;
+   border-radius: 50%;
+   color: #fff;
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+.join-the-commumity ul li a i {
+   font-size: 80px;
+}
+
+
+/**************************************/
+/************ noble exchange Area*************/
+/************************************/
+.exchange-header h1{
+   font-family: "Irish Grover", system-ui;
+   font-size: 170px;
+   font-weight: 400;
+   line-height: 205.53px;
+   color: #fff;
+   -webkit-text-stroke: 8px #0B8189;
+   text-align: center;
+   margin-top: 186px;
+}
+.exchange-header h2{
+   font-family: "Gochi Hand", cursive;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 70.72px;
+   text-align: center;
+   color: #fff;
+   margin: 33px 0 88px 0;
+}
+.exchange-logo{
+   display: flex;
+   gap: 109px;
+   flex-wrap: wrap;
+   max-width: 1600px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.gate-logo {
+   background-color: #236129;
+}
+.gate-logo img{
+   padding: 62px 64px 74px 130px;
+   object-fit: cover;
+}
+
+/**************************************/
+/************ noble footer Area*************/
+/************************************/
+.footer h2{
+   font-family: "Gochi Hand", cursive;
+   font-size: 60px;
+   font-weight: 400;
+   line-height: 70.72px;
+   color: #fff;
+   text-align: center;
+   margin: 177px 0 60px 0;
 }
