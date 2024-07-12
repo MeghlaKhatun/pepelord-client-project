@@ -337,26 +337,96 @@ body {
    margin: 125px auto 101px auto;
    text-align: center;
 }
-.pepelord-btn img{
+
+.pepelord-btn img {
    width: 720px;
    object-fit: cover;
 }
 
-/* .pepelord-btn  {
-   font-family: "Irish Grover", system-ui;
-   font-size: 60px;
-   font-weight: 400;
-   line-height: 72.54px;
-   color: #236129;
-   padding: 25px 68px;
-} */
-
-/* .pepelord-btn  {
-   width: 48px;
-   height: 48px;
-} */
-
 /**************************************/
 /************ Tokenomics area*************/
 /************************************/
-.tokenomics-header h1 {}
+.tokenomics-header h1 {
+   font-family: "Irish Grover", system-ui;
+   font-size: 150px;
+   font-weight: 400;
+   line-height: 181.35px;
+   color: #fff;
+   -webkit-text-stroke: 8px #045C62;
+   padding-top: 19px;
+   text-align: center;
+   margin-top: 428px;
+}
+
+.tokenomics-header p {
+   font-family: "Gochi Hand", cursive;
+   font-size: 48px;
+   font-weight: 400;
+   line-height: 50px;
+   text-align: center;
+   color: #FFFFFF;
+   margin: 69px 0;
+}
+
+.tokenomics-main {
+   display: flex;
+}
+.tokenomics-cards{
+   max-width: 1170px;
+   margin-left: -90px;
+}
+.tokenomic-card {
+   display: flex;
+   gap: 59px;
+}
+
+.card {
+   background-color: #236129;
+   padding: 47px 49px 46px 48px;
+}
+
+.card h3 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 34px;
+   font-weight: 400;
+   line-height: 40.08px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.card h1 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 64px;
+   font-weight: 400;
+   line-height: 75.44px;
+   text-align: center;
+   color: #FFFFFF;
+
+}
+
+.second-card {
+   padding: 47px 414px 46px 52px;
+}
+.third-card{
+   padding: 54px 75px;
+   background-color: #236129;
+   margin-top: 52px;
+}
+.third-card h1 {
+   font-family: "Gochi Hand", cursive;
+   font-size: 64px;
+   font-weight: 400;
+   line-height: 50px;
+   text-align: center;
+   color: #fff;
+}
+
+.tokenomic-btn {
+   margin: 116px auto 363px auto;
+   text-align: center;
+}
+
+.tokenomic-btn img{
+   width: 274px;
+   object-fit: cover;
+}
